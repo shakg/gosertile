@@ -1,7 +1,3 @@
-Certainly! Below is a sample README file for your Go project based on the provided `main.go` code. The README provides an overview of your project, explains the main components, and guides users on how to set up and run the application.
-
----
-
 # Offline Maps Server
 
 This is an Offline Maps Server written in Go. The server serves tile and terrain data for offline use in map applications.
