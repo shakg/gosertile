@@ -43,20 +43,10 @@ To run the Offline Maps Server on your local machine, you need to have Go instal
 After building the project, you can run the application:
 
 ```sh
-./offline-maps-server
+./offline-maps-server <port> <offline-map-folder-path>
 ```
 
 The server will start and listen on the specified port, serving tile and terrain data.
-
-## Configuration
-
-The application uses command-line arguments for configuration. You can specify options such as the port number to listen on. Here's how you can pass arguments:
-
-```sh
-./offline-maps-server --port 8080
-```
-
-For more configuration options, refer to the [Configuration](#configuration) section.
 
 ## API Endpoints
 
