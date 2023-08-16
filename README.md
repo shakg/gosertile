@@ -43,7 +43,7 @@ To run the Offline Maps Server on your local machine, you need to have Go instal
 After building the project, you can run the application:
 
 ```sh
-./offline-maps-server <port> <offline-map-folder-path>
+./sertile <port> <offline-map-folder-path>
 ```
 
 The server will start and listen on the specified port, serving tile and terrain data.
