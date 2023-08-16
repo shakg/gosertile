@@ -130,7 +130,7 @@ func main() {
 	fmt.Printf("Listening on port %s...\n", port)
 	httpErr := http.ListenAndServe(":"+port, nil)
 	if httpErr != nil {
-		fmt.Printf("Error: %v\n", err)
+		fmt.Printf("Error: %v\n", httpErr)
 		os.Exit(1)
 	}
 }
